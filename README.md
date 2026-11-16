@@ -1,4 +1,4 @@
-# Jenkins CI/CD + Terraform (IaC) Project 
+# Jenkins CI/CD + Terraform Project 
 
 **Jenkins pipeline** (checkout → build → test → docker build → deploy → verify) and a **Terraform configuration** (reusable module that provisions an EC2 server + security group).
 
