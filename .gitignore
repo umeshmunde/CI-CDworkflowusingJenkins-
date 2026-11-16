@@ -1,0 +1,24 @@
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+*.tfplan
+crash.log
+crash.*.log
+
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+*.pem
+
+# Operating system / editor
+.DS_Store
+Thumbs.db
+.vscode/
